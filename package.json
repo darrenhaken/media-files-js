@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/darrenhaken/media-files-js/issues"
   },
-  "homepage": "https://github.com/darrenhaken/media-files-js"
+  "homepage": "https://github.com/darrenhaken/media-files-js",
+  "dependencies": {
+    "commander": "^2.5.0"
+  }
 }
