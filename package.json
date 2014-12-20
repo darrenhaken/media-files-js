@@ -4,7 +4,8 @@
   "description": "CLI tool to manage rename movie and tv show names using IMDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec specs/**/*.js",
+    "watch-test": "mocha --watch --reporter specs/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "homepage": "https://github.com/darrenhaken/media-files-js",
   "dependencies": {
     "commander": "^2.5.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
   }
 }
