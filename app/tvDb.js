@@ -1,4 +1,4 @@
-var http = require('http'),
+var request = require('request'),
     xmlToJson = require('xml2json'),
     Q = require('q');
 
@@ -7,15 +7,17 @@ module.exports = {
         var tvShowUrl = 'http://www.thetvdb.com/api/GetSeries.php?seriesname=' + encodeURIComponent(name);
         var deferred = Q.defer();
 
-        http.get(tvShowUrl, function (response) {
-            var body = '';
-            response.on('data', function (data) {
-                body += data;
-            });
-            response.on('end', function () {
-                var tvShow = JSON.parse(xmlToJson.toJson(body));
+        request(tvShowUrl, function (error, response, body) {
+            var validResponse = !error && response.statusCode == 200;
+
+            if (validResponse) {
+                var jsonString = xmlToJson.toJson(body);
+                var tvShow = JSON.parse(jsonString);
                 deferred.resolve(tvShow);
-            });
+            }
+            else {
+                deferred.reject(error);
+            }
         });
         return deferred.promise;
     }
