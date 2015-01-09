@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec specs/**/*.js",
-    "watch-test": "mocha --watch --reporter spec specs/**/*.js"
+    "watch-test": "mocha --watch --reporter spec specs/**/*.js app/**/*.js"
   },
   "repository": {
     "type": "git",

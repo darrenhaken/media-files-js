@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data>
+    <Series>
+        <id>80379</id>
+        <Actors>|Jim Parsons|Johnny Galecki|Kaley Cuoco-Sweeting|Simon Helberg|Kunal Nayyar|Melissa Rauch|Mayim Bialik|</Actors>
+        <Airs_DayOfWeek>Thursday</Airs_DayOfWeek>
+        <Airs_Time>8:00 PM</Airs_Time>
+        <ContentRating>TV-PG</ContentRating>
+        <FirstAired>2007-09-24</FirstAired>
+        <Genre>|Comedy|</Genre>
+        <IMDB_ID>tt0898266</IMDB_ID>
+        <Language>en</Language>
+        <Network>CBS</Network>
+        <NetworkID/>
+        <Overview>What happens when hyperintelligent roommates Sheldon and Leonard meet Penny, a free-spirited beauty moving in next door, and realize they know next to nothing about life outside of the lab. Rounding out the crew are the smarmy Wolowitz, who thinks he's as sexy as he is brainy, and Koothrappali, who suffers from an inability to speak in the presence of a woman.</Overview>
+        <Rating>9.2</Rating>
+        <RatingCount>1029</RatingCount>
+        <Runtime>30</Runtime>
+        <SeriesID>58056</SeriesID>
+        <SeriesName>The Big Bang Theory</SeriesName>
+        <Status>Continuing</Status>
+        <added/>
+        <addedBy/>
+        <banner>graphical/80379-g23.jpg</banner>
+        <fanart>fanart/original/80379-38.jpg</fanart>
+        <lastupdated>1420713496</lastupdated>
+        <poster>posters/80379-22.jpg</poster>
+        <tms_wanted_old>1</tms_wanted_old>
+        <zap2it_id>EP00931182</zap2it_id>
+    </Series>
+    <Episode>
+        <id>2321301</id>
+        <Combined_episodenumber>1</Combined_episodenumber>
+        <Combined_season>0</Combined_season>
+        <DVD_chapter/>
+        <DVD_discid/>
+        <DVD_episodenumber/>
+        <DVD_season/>
+        <Director/>
+        <EpImgFlag>2</EpImgFlag>
+        <EpisodeName>Unaired Pilot</EpisodeName>
+        <EpisodeNumber>1</EpisodeNumber>
+        <FirstAired/>
+        <GuestStars/>
+        <IMDB_ID/>
+        <Language>en</Language>
+        <Overview>The very first pilot of The Big Bang Theory. With a person call Katie played by Amanda Walsh, and a female friend called Gilda (Iris Bahr)</Overview>
+        <ProductionCode/>
+        <Rating>7.2</Rating>
+        <RatingCount>28</RatingCount>
+        <SeasonNumber>0</SeasonNumber>
+        <Writer/>
+        <absolute_number/>
+        <airsafter_season/>
+        <airsbefore_episode>1</airsbefore_episode>
+        <airsbefore_season>1</airsbefore_season>
+        <filename>episodes/80379/2321301.jpg</filename>
+        <lastupdated>1276098013</lastupdated>
+        <seasonid>28046</seasonid>
+        <seriesid>80379</seriesid>
+        <thumb_added/>
+        <thumb_height>225</thumb_height>
+        <thumb_width>400</thumb_width>
+    </Episode>
+    <Episode>
+        <id>4302970</id>
+        <Combined_episodenumber>2</Combined_episodenumber>
+        <Combined_season>0</Combined_season>
+        <DVD_chapter/>
+        <DVD_discid/>
+        <DVD_episodenumber/>
+        <DVD_season/>
+        <Director/>
+        <EpImgFlag>2</EpImgFlag>
+        <EpisodeName>Access All Areas</EpisodeName>
+        <EpisodeNumber>2</EpisodeNumber>
+        <FirstAired>2012-04-05</FirstAired>
+        <GuestStars>Rick Edwards (Host)</GuestStars>
+        <IMDB_ID/>
+        <Language>en</Language>
+        <Overview>Celebrating the 100th episode of US sitcom The Big Bang Theory, Rick Edwards travels to the Hollywood set for an access-all-areas visit, catching up with the cast and learning everything there is to know about the show.
+
+            This behind-the-scenes special takes fans through everything from the writing of the script to the recording of the show in front of a live audience.</Overview>
+        <ProductionCode/>
+        <Rating>7.0</Rating>
+        <RatingCount>6</RatingCount>
+        <SeasonNumber>0</SeasonNumber>
+        <Writer/>
+        <absolute_number/>
+        <airsafter_season/>
+        <airsbefore_episode/>
+        <airsbefore_season/>
+        <filename>episodes/80379/4302970.jpg</filename>
+        <lastupdated>1334032650</lastupdated>
+        <seasonid>28046</seasonid>
+        <seriesid>80379</seriesid>
+        <thumb_added/>
+        <thumb_height>225</thumb_height>
+        <thumb_width>400</thumb_width>
+    </Episode>
+</Data>
