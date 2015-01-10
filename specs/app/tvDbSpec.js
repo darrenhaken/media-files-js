@@ -27,7 +27,7 @@ describe('TV DB', function () {
         it('should find the exact tv show which matches the search term', function () {
             return subject.findTvShowByName('Big Bang Theory')
                 .then(function (tvShow) {
-                    expect(tvShow.Series.seriesid).to.equal(80379);
+                    expect(tvShow.seriesId).to.equal(80379);
                 });
         });
     });

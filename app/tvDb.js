@@ -1,6 +1,7 @@
 var request = require('request'),
     xmlToJson = require('xml2json'),
-    Q = require('q');
+    Q = require('q'),
+    TvShowSummary = require('./model/tvShowSummary');
 
 var baseUri = 'http://www.thetvdb.com/api/',
     accessToken = 'CCD07943FE612FE9';
@@ -10,9 +11,10 @@ function parseTvShow(error, response, body, deferred) {
 
     if (validResponse) {
         var jsonString = xmlToJson.toJson(body);
-        var tvShow = JSON.parse(jsonString);
+        var tvDbSummaryData = JSON.parse(jsonString);
+        var tvShow = new TvShowSummary(tvDbSummaryData.Data.Series);
 
-        deferred.resolve(tvShow.Data);
+        deferred.resolve(tvShow);
     }
     else {
         deferred.reject(error);
