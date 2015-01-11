@@ -1,7 +1,8 @@
 var request = require('request'),
     xmlToJson = require('xml2json'),
     Q = require('q'),
-    TvShowSummary = require('./model/tvShowSummary');
+    TvShowSummary = require('./model/tvShowSummary'),
+    TvShow = require('./model/tvShow');
 
 var baseUri = 'http://www.thetvdb.com/api/',
     accessToken = 'CCD07943FE612FE9';
@@ -42,7 +43,9 @@ module.exports = {
             if (validResponse) {
                 var jsonString = xmlToJson.toJson(body);
                 var tvDbFullListing = JSON.parse(jsonString);
-                deferred.resolve(tvDbFullListing.Data);
+                var tvShow = new TvShow(tvDbFullListing.Data);
+
+                deferred.resolve(tvShow);
             }
             else {
                 deferred.reject(error);

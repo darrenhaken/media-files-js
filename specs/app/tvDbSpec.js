@@ -48,7 +48,7 @@ describe('TV DB', function () {
         it('should find the TV show', function () {
             return subject.findFullTvShowById(80379)
                 .then(function (tvShow) {
-                    expect(tvShow.Episode.length).to.equal(2);
+                    expect(tvShow.episodes.length).to.equal(2);
                 });
         });
     });
